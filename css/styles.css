@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Integral CF';
+    src: url('../fonts/IntegralCF-Bold.woff2') format('woff2');
+    font-weight: 900;
+    font-family: swap;
+}
+
+.section-title, 
+.navbar-brand {
+    font-family: 'Integral CF', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.section-title {
+    font-size: 48px !important;
+}
+
+.text-secondary {
+    color: rgba(0, 0, 0, 0.6) !important;
+
+}
+.style-card{
+    height: 290px;
+}
+
+.style-card img{
+    display: block;
+    object-fit: cover;
+    object-position: top;
+}
+
+.input-group {
+    i, 
+    input {
+        color: rgba(0, 0, 0, 0.4) !important;
+    }
+    
+}
+
+.header .section-title {
+    font-size: 64px !important;
+}
+
+@media (max-width: 1200px) {
+    .header .section-title {
+        font-size: 48px !important;
+    }
+
+    .stat h1 {
+        font-size: 24px !important;
+        
+    }
+    .stat p {
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .header .section-title {
+        font-size: 36px !important;
+    }
+
+    .style-card{
+        height: 220px;
+    }
+}
